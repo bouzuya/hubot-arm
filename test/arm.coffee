@@ -10,19 +10,19 @@ describe 'arm', ->
 
   describe 'module.exports', ->
     it 'is function', ->
-      arm = require '../'
+      arm = require '../src/arm'
       assert typeof arm is 'function'
 
     it 'add "arm" function to argument[0]', ->
       robot = {}
-      require('../') robot
+      require('../src/arm') robot
       assert robot.hasOwnProperty 'arm'
       assert typeof robot.arm is 'function'
 
   describe '"arm" function', ->
     beforeEach ->
       @robot = {}
-      require('../') @robot
+      require('../src/arm') @robot
       @arm = @robot.arm
 
     describe 'call with "request"', ->
