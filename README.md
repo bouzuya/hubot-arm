@@ -1,5 +1,6 @@
 # hubot-arm
 
+The hubot-arm provides a pluggable arm to Hubot.
 
 ## Installation
 
