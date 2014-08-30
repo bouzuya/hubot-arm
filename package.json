@@ -2,7 +2,7 @@
   "name": "hubot-arm",
   "version": "0.1.0",
   "description": "The hubot-arm provides a pluggable arm to Hubot",
-  "main": "index.coffee",
+  "main": "index.js",
   "scripts": {
     "build": "gulp",
     "clean": "gulp clean",
