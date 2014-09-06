@@ -1,6 +1,6 @@
 {
   "name": "hubot-arm",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The hubot-arm provides a pluggable arm to Hubot",
   "main": "index.js",
   "scripts": {
